@@ -1,0 +1,35 @@
+version: "2"         # required to adjust maintainability checks
+checks:
+  argument-count:
+    config:
+      threshold: 2
+  complex-logic:
+    config:
+      threshold: 2
+  file-lines:
+    config:
+      threshold: 2
+  method-complexity:
+    config:
+      threshold: 2
+  method-count:
+    config:
+      threshold: 2
+  method-lines:
+    config:
+      threshold: 2
+  nested-control-flow:
+    config:
+      threshold: 2
+  return-statements:
+    config:
+      threshold: 2
+  similar-code:
+    config:
+      threshold: 2
+  identical-code:
+    config:
+      threshold: 2
+plugins:
+  rubocop:
+    enabled: true
